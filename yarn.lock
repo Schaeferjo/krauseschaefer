@@ -4423,6 +4423,21 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
+fontsource-palanquin@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/fontsource-palanquin/-/fontsource-palanquin-3.0.9.tgz#fb0759763ddf453e2c29372368a775c1d2a972c6"
+  integrity sha512-MKVCUHII357jmUaWR9md4d3gv5U2WdMG6XAg628IN0x6v+wqimgUWLK3ulM97Q/vDzwXyApFPW/0DH8limhG5w==
+
+fontsource-playfair-display-sc@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/fontsource-playfair-display-sc/-/fontsource-playfair-display-sc-3.0.9.tgz#42dfbde38efa7969ffa92c1d8b7a14e90268d378"
+  integrity sha512-MjK6XUN8DQHeIRtk0DnO3XJgzEyekzK2csrx9UZlY0cyEML/CD+iFjaBRQYcGw9Xd2tgNU91Br6VENtid1jVfA==
+
+fontsource-playfair-display@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/fontsource-playfair-display/-/fontsource-playfair-display-3.0.3.tgz#683406c97a53ad026f534cd11e4c62bf778a4e04"
+  integrity sha512-BmCNrcmTx9QIEES0ocJKV+7fjfFx/EsJ3o1O3jQoKP5tIkeWjq1fKyYysWWQfenqZh9/IZO99fDxAtn+quooOA==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
