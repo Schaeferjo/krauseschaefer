@@ -3,21 +3,25 @@
     <HeroBg></HeroBg>
 
     <v-main>
-      <v-container class="content_wrap">
+      <v-container class="content-wrap">
         <v-row>
-          <v-col cols="12" xs="12" sm="4" md="4" lg="4" xl="4" class="pa-6">
+          <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4" class="px-3">
             <Navigation></Navigation>
           </v-col>
-          <v-col cols="12" xs="12" sm="8" md="8" lg="8" xl="8" class="pa-6">
+          <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8" class="px-8">
             <nuxt />
           </v-col>
         </v-row>
       </v-container>
     </v-main>
 
-    <v-footer color="#fff">
-      <span>&copy; {{ new Date().getFullYear() }}</span> | Datenschutz |
-      Impressum
+    <v-footer color="#fff" class="pa-0">
+      <div class="footer-wrap">
+        <div class="footer">
+          <nuxt-link to="/"> Datenschutz </nuxt-link><br />
+          <nuxt-link to="/"> Impressum </nuxt-link>
+        </div>
+      </div>
     </v-footer>
   </v-app>
 </template>
@@ -42,6 +46,10 @@ export default {
           title: 'Therapien',
           to: '/therapien',
         },
+        {
+          title: 'Kontakt',
+          to: '/kontakt',
+        },
       ],
     }
   },
@@ -54,8 +62,19 @@ export default {
   flex-direction: row;
 }
 
-.content_wrap {
+.content-wrap {
+  max-width: 1280px;
+}
+
+.footer-wrap {
+  width: 100%;
   max-width: 1280px;
   margin: auto;
+  padding: 0 2em;
+  .footer {
+    width: 280px;
+    background-color: rgba(94, 35, 104, 1);
+    padding: 1em;
+  }
 }
 </style>

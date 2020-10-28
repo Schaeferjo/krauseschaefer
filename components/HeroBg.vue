@@ -64,7 +64,7 @@ export default {
 #hero-bg-image {
   position: relative;
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   overflow: hidden;
   #border-top {
     position: absolute;
@@ -128,6 +128,13 @@ export default {
         position: absolute;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  #hero-bg-image {
+    height: 20vh;
+    border: 30px solid red;
   }
 }
 </style>

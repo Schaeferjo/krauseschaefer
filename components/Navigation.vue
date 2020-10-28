@@ -1,5 +1,5 @@
 <template>
-  <v-list id="nav_default" flat nav class="pa-6">
+  <v-list id="nav_default" flat nav class="px-6">
     <div id="navigation-contact">
       <p>
         <span class="font-weight-bold">Telefon:</span>
