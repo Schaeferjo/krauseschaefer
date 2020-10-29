@@ -1,5 +1,8 @@
 import colors from 'vuetify/es5/util/colors'
 
+const description =
+  'Prof. em. Dr. phil Peter Trübner: Psychologische Krisenbetreuung für Individuen. Beratung bei Projektplanung und Konzeptentwicklung für Institutionen.'
+
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
@@ -9,14 +12,17 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - code',
-    title: 'code',
+    titleTemplate: 'Naturheilpraxis Krause-Schäfer | Lohmar | %s',
+    title: '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: description,
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -54,7 +60,7 @@ export default {
       light: true,
       themes: {
         light: {
-          primary: colors.blue.darken2,
+          primary: '#5e2368',
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,

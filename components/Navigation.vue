@@ -50,6 +50,10 @@ export default {
           title: 'Therapien',
           to: '/therapien',
         },
+        {
+          title: 'Kontakt',
+          to: '/kontakt',
+        },
       ],
     }
   },

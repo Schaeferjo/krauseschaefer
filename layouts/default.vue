@@ -35,33 +35,10 @@ export default {
     HeroBg,
     Navigation,
   },
-  data() {
-    return {
-      items: [
-        {
-          title: 'Start',
-          to: '/',
-        },
-        {
-          title: 'Therapien',
-          to: '/therapien',
-        },
-        {
-          title: 'Kontakt',
-          to: '/kontakt',
-        },
-      ],
-    }
-  },
 }
 </script>
 
 <style lang="scss">
-.v-main__wrap {
-  display: flex;
-  flex-direction: row;
-}
-
 .content-wrap {
   max-width: 1280px;
 }
@@ -73,7 +50,7 @@ export default {
   padding: 0 2em;
   .footer {
     width: 280px;
-    background-color: rgba(94, 35, 104, 1);
+    background-color: #5e2368;
     padding: 1em;
   }
 }

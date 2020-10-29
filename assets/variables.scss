@@ -3,7 +3,13 @@
 // The variables you want to modify
 // $font-size-root: 20px;
 
+// CI COLORS
+// *** todo: redudancy in nuxt.js ***
+$primary: #5e2368;
 
+
+
+// DEVICE RESET
 a:focus, a:active,
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
@@ -19,66 +25,65 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   outline: none !important;
 }
 
-body {
-    font-family: 'Palanquin', sans-serif !important;
-    font-style: normal;
-    font-weight: 400 !important; /* normal */
-    color: #333 !important;
-    background-color: #fff !important; /* Old browsers */
-    font-size: 15px !important;
-    line-height: 30px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden !important;
-}
 
-h1 , h2 , h3, h4, h5, h6 {
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-    -moz-osx-font-smoothing: grayscale !important;
+// STYLING
+
+
+
+body {
+    font-family: "Palanquin", sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+    color: #333;
+    background-color: #fff; 
+    font-size: 17px;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
 }
 
 h1{
-    font-family: 'Playfair Display SC', serif;
-    font-weight: 400 !important; /* normal */
+    font-family: 'Playfair Display SC', sans-serif;
+    font-weight: 400; 
+    font-size:3.3em;
     line-height: 1.05em;
-    color:#E5E5E5 !important;
     letter-spacing: -0.025em;
-    margin-top: 0 !important;
+    padding-bottom: 0.25em;
+    color:#E5E5E5;
 }
 
-
 h2 {
-    font-family: "Palanquin", "Trebuchet MS", Helvetica, sans-serif !important;
-    line-height:1.5em !important;
-    font-weight: 700 !important; /* bold */
-    color:rgb(94, 35, 104);
-    margin:0 0 0.5em 0 !important;
-    padding: 0 0 0.25em 0 !important;
+    font-family: "Palanquin", sans-serif;
+    line-height:1.5em;
+    font-weight: 700; 
+    font-size: 1.5em;
+    color:#5e2368;
     text-transform: uppercase;
     display: block;
+    padding-bottom:0.25em;
+    margin-bottom: 0.5em;
     background-image: url("../static/images/hr_custom.svg");
     background-repeat: repeat-x;
     background-position: 50% 100%;
 }
 
-
 h3  {
-font-family: "Playfair Display", "Trebuchet MS", Helvetica, sans-serif !important;
+   font-family: "Playfair Display", sans-serif;
    line-height:1.5em;
-   font-weight: 700 !important; /* bold */
+   font-weight: 700;
    color:#171717;
-   padding:0 0 0.25em 0 !important;
-   margin: 0 !important;
+   padding:0 0 0.25em 0 ;
+   margin: 0;
 }
 
 h4  {
-    font-family: "Palanquin", "Trebuchet MS", Helvetica, sans-serif !important;
+    font-family: "Palanquin", sans-serif;
     line-height:1.6em;
-    font-weight: 700 !important; /* bold */
+    font-weight: 700; 
     color:#fff;
     width:auto;
     display: inline-block;
-    padding: 0.08em 0.5em 0.15em 0.5em !important;
-    background-color:rgb(94, 35, 104);
+    padding: 0.08em 0.5em 0.15em 0.5em;
+    background-color: $primary;
 }
