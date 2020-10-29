@@ -12,7 +12,8 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: 'Naturheilpraxis Krause-Schäfer | Lohmar | %s',
+    titleTemplate:
+      'Naturheilpraxis Krause-Schäfer | Heilpraktikerin aus Lohmar | %s',
     title: '',
     meta: [
       { charset: 'utf-8' },

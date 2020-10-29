@@ -106,3 +106,13 @@
     </v-expansion-panels>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Therapien',
+    }
+  },
+}
+</script>
