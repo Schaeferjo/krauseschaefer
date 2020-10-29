@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Therapien | Naturheilpraxis</h1>
+    <h1>Therapien</h1>
     <h2>Als Heilpraktikerin biete ich folgende Therapieformen an:</h2>
     <p class="pb-6">
       Klicken Sie auf die einzelnen Therapieformen, um mehr zu erfahren.
