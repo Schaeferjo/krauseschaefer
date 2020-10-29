@@ -82,6 +82,9 @@ export default {
   },
 
   pwa: {
+    icon: {
+      fileName: 'icon.png',
+    },
     meta: {
       theme_color: primary,
       lang: 'de',
