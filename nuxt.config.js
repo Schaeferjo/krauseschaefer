@@ -50,6 +50,8 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    // https://www.npmjs.com/package/@nuxtjs/sitemap
+    '@nuxtjs/sitemap',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
   ],
