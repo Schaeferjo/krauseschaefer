@@ -2,7 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 
 const primary = '#5e2368'
 const description =
-  'Prof. em. Dr. phil Peter Trübner: Psychologische Krisenbetreuung für Individuen. Beratung bei Projektplanung und Konzeptentwicklung für Institutionen.'
+  'Die Naturheilpraxis Krause-Schäfer in Lohmar bietet viele alternativer Therapien an. Ein Schwerpunkt ist die individuelle Behandlung von Migräne.'
 
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)

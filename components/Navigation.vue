@@ -70,6 +70,10 @@ export default {
   }
 }
 .main-nav {
+  a.v-list-item {
+    color: red;
+  }
+
   &::before,
   &::after {
     content: '';
