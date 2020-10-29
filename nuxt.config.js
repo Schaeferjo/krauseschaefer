@@ -1,5 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
 
+const primary = '#5e2368'
 const description =
   'Prof. em. Dr. phil Peter Trübner: Psychologische Krisenbetreuung für Individuen. Beratung bei Projektplanung und Konzeptentwicklung für Institutionen.'
 
@@ -58,12 +59,17 @@ export default {
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
+    treeShake: true,
     customVariables: ['~/assets/variables.scss'],
+    defaultAssets: {
+      font: false,
+      icons: 'mdiSvg',
+    },
     theme: {
       light: true,
       themes: {
         light: {
-          primary: '#5e2368',
+          primary,
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
@@ -73,6 +79,20 @@ export default {
         },
       },
     },
+  },
+
+  pwa: {
+    meta: {
+      theme_color: primary,
+      lang: 'de',
+      description,
+    },
+  },
+
+  /* sitemap */
+  sitemap: {
+    hostname: 'https://krause-schaefer.de/',
+    gzip: true,
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

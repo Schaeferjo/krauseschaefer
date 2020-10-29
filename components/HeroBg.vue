@@ -54,7 +54,7 @@ export default {
     height: 180px;
     z-index: 11;
     background-color: rgba(94, 35, 104, 0.95);
-    background-image: url('../static/images/logo.svg');
+    background-image: url('/images/logo.svg');
     background-size: 90%;
     background-position: center 90%;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ export default {
     height: 20px;
     top: 0;
     z-index: 10;
-    background-image: url('../static/images/border_top.svg');
+    background-image: url('/images/border_top.svg');
     background-size: auto 10px;
     background-repeat: repeat-x;
   }
@@ -82,7 +82,7 @@ export default {
     height: 45vh;
     top: 0;
     z-index: 10;
-    background-image: url('../static/images/border_aside.svg');
+    background-image: url('/images/border_aside.svg');
     background-size: 10px auto;
     background-position: 0 100%;
     background-repeat: repeat-y;
@@ -107,7 +107,7 @@ export default {
       height: 50px;
       margin: auto;
       left: 2em;
-      background-image: url('../static/images/border_bottom.svg');
+      background-image: url('/images/border_bottom.svg');
       &::before {
         content: '';
         width: 9999px;

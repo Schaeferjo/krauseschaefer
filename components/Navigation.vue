@@ -76,7 +76,7 @@ export default {
     width: 100%;
     height: 10px;
     display: block;
-    background-image: url('../static/images/hr_custom.svg');
+    background-image: url('/images/hr_custom.svg');
     background-repeat: repeat-x;
   }
 }
