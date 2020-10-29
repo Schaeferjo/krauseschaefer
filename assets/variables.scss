@@ -21,15 +21,21 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     outline : 0;
 }
 
-:active, :focus{
-  outline: none !important;
+::selection {
+    background: $primary; 
+    color:#fff;
+}
+::-moz-selection {
+    background: $primary;
+    color:#fff;
 }
 
+:active, :focus{
+    outline: none !important;
+}
+  
 
 // STYLING
-
-
-
 body {
     font-family: "Palanquin", sans-serif;
     font-style: normal;
@@ -55,10 +61,10 @@ h1{
 
 h2 {
     font-family: "Palanquin", sans-serif;
+    font-size: 1.3em;
     line-height:1.5em;
     font-weight: 700; 
-    font-size: 1.5em;
-    color:#5e2368;
+    color:$primary;
     text-transform: uppercase;
     display: block;
     padding-bottom:0.25em;

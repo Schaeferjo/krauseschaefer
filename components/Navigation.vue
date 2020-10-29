@@ -71,7 +71,46 @@ export default {
 }
 .main-nav {
   a.v-list-item {
-    color: red;
+    border-radius: 0;
+    color: $primary;
+    .v-list-item__content {
+      .v-list-item__title {
+        color: $primary;
+        font-family: 'Playfair Display SC', sans-serif;
+        font-size: 1.8em;
+        &::before {
+          content: '▸';
+          color: #fff;
+          display: block;
+          position: absolute;
+          top: 0;
+          width: 30px;
+          height: 1em;
+          line-height: 1.2em;
+          left: -40px;
+          font-size: 1.5em;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover::before {
+          left: -25px;
+          color: #ccc;
+        }
+      }
+    }
+    &.v-list-item--active {
+      background-color: $primary;
+      .v-list-item__content {
+        .v-list-item__title {
+          color: #fff;
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
   }
 
   &::before,
