@@ -12,12 +12,17 @@
       <div id="border-bottom-wrap">
         <div id="border-bottom"></div>
       </div>
-      <v-parallax
-        :src="imgUrl"
-        :srcset="imgSourceSet"
-        sizes="(min-width: 960px) 100vw, 100vw"
-        alt="Naturheilpraxis Krause-Schäfer Deesem (Heilpraktiker für Lohmar, Siegburg, Neunkirchen-Seelscheid)"
-      ></v-parallax>
+      <div v-if="['kontakt'].includes($route.name)">
+        <h1>Kontakt</h1>
+      </div>
+      <div v-else>
+        <v-parallax
+          :src="imgUrl"
+          :srcset="imgSourceSet"
+          sizes="(min-width: 960px) 100vw, 100vw"
+          alt="Naturheilpraxis Krause-Schäfer Deesem (Heilpraktiker für Lohmar, Siegburg, Neunkirchen-Seelscheid)"
+        ></v-parallax>
+      </div>
     </div>
   </div>
 </template>
