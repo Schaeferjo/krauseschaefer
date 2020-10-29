@@ -1,12 +1,12 @@
 <template>
   <v-app dark>
-    <HeroBg></HeroBg>
+    <HeroSection />
 
     <v-main>
       <v-container class="content-wrap">
         <v-row>
           <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4" class="px-3">
-            <Navigation></Navigation>
+            <Navigation />
           </v-col>
           <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8" class="px-8">
             <nuxt />
@@ -27,12 +27,12 @@
 </template>
 
 <script>
-import HeroBg from '~/components/HeroBg.vue'
+import HeroSection from '~/components/HeroSection.vue'
 import Navigation from '~/components/Navigation.vue'
 
 export default {
   components: {
-    HeroBg,
+    HeroSection,
     Navigation,
   },
 }

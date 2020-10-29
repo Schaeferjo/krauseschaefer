@@ -13,36 +13,23 @@
         <div id="border-bottom"></div>
       </div>
       <div v-if="['kontakt'].includes($route.name)">
-        <h1>Kontakt</h1>
+        <HeroSectionMap />
       </div>
       <div v-else>
-        <v-parallax
-          :src="imgUrl"
-          :srcset="imgSourceSet"
-          sizes="(min-width: 960px) 100vw, 100vw"
-          alt="Naturheilpraxis Krause-Schäfer Deesem (Heilpraktiker für Lohmar, Siegburg, Neunkirchen-Seelscheid)"
-        ></v-parallax>
+        <HeroSectionImage />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import HeroSectionMap from '~/components/HeroSectionMap.vue'
+import HeroSectionImage from '~/components/HeroSectionImage.vue'
+
 export default {
-  computed: {
-    imgUrl() {
-      return `/images/bg_large/${this.imgName}`
-    },
-    imgSourceSet() {
-      return `/images/bg_large/${this.imgName} 1280w, /images/bg_medium/${this.imgName} 600w`
-    },
-    imgName() {
-      const mapping = {
-        index: 'bg_start.jpg',
-        therapien: 'bg_therapien.jpg',
-      }
-      return mapping[this.$route.name] || 'bg_start.jpg'
-    },
+  components: {
+    HeroSectionMap,
+    HeroSectionImage,
   },
 }
 </script>

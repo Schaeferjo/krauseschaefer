@@ -28,6 +28,7 @@
     "fontsource-palanquin": "^3.0.9",
     "fontsource-playfair-display": "^3.0.3",
     "fontsource-playfair-display-sc": "^3.0.9",
+    "mapbox-gl": "^1.12.0",
     "nuxt": "^2.14.6"
   },
   "devDependencies": {
