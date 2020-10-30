@@ -55,6 +55,9 @@ export default {
     '@nuxtjs/sitemap',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+
+    // see: https://github.com/schlunsen/nuxt-leaflet
+    'nuxt-leaflet',
   ],
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
