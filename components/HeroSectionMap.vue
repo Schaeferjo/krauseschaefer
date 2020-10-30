@@ -3,18 +3,24 @@
     <v-row>
       <v-col>
         <client-only>
-          <l-map id="map" :zoom="15" :center="[50.8561, 7.2776]">
+          <l-map
+            id="map"
+            :zoom="13"
+            :center="[50.8561, 7.2776]"
+            :options="{ zoomControl: false }"
+          >
+            <l-control-zoom position="topright"></l-control-zoom>
             <l-tile-layer
               url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
             ></l-tile-layer>
             <l-marker :lat-lng="[50.8561, 7.2776]">
               <l-icon
                 icon-url="/images/mapmarker.svg"
-                :icon-size="[50, 66]"
-                :icon-anchor="[25, 66]"
+                :icon-size="[40, 50]"
+                :icon-anchor="[20, 50]"
                 shadow-url="/images/mapmarker_shadow.svg"
-                :shadow-size="[50, 66]"
-                :shadow-anchor="[5, 66]"
+                :shadow-size="[40, 50]"
+                :shadow-anchor="[4, 50]"
               ></l-icon>
             </l-marker>
           </l-map>
