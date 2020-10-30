@@ -1,5 +1,11 @@
 <template>
-  <div id="map"></div>
+  <v-parallax dark class="herosectionheight">
+    <v-row>
+      <v-col>
+        <div id="map"></div>
+      </v-col>
+    </v-row>
+  </v-parallax>
 </template>
 
 <script>
@@ -11,6 +17,12 @@ export default {
       access_token:
         'pk.eyJ1Ijoiam9zZW4iLCJhIjoiY2llcXQ4aTd0MDEzaHZ4a21jejVrcHdyMiJ9.SPCThtA30WGuMPwFxju_8w',
       map: {},
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css',
+        },
+      ],
     }
   },
 
@@ -22,17 +34,17 @@ export default {
       mapboxgl.accessToken = this.access_token
       this.map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/josen/ckg6n0brn0rs919qo99k4rx0x',
-        zoom: 9,
-        center: [7.2504221, 47.1272345],
+        style: 'mapbox://styles/josen/ckguz143y04u619rtnoipsogl',
+        zoom: 11,
+        center: [7.2776, 50.8561],
         minZoom: 2,
-        maxZoom: 12,
+        maxZoom: 14,
       })
       this.map.addControl(new mapboxgl.NavigationControl())
       new mapboxgl.Marker({
-        color: '#305596',
+        color: '#5e2368',
       })
-        .setLngLat([7.2504221, 47.1272345])
+        .setLngLat([7.2776, 50.8561])
         .addTo(this.map)
     },
   },
@@ -48,3 +60,15 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+.herosectionheight,
+#map {
+  width: 100%;
+  height: 45vh;
+}
+
+.v-parallax__content {
+  padding: 0 !important;
+}
+</style>

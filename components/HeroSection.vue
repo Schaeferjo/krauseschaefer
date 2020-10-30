@@ -5,7 +5,7 @@
         <div id="logo"></div>
       </nuxt-link>
     </div>
-    <div id="hero-bg-image">
+    <div id="hero-section">
       <div id="border-top"></div>
       <div id="border-right" class="border-aside"></div>
       <div id="border-left" class="border-aside"></div>
@@ -53,10 +53,10 @@ export default {
   }
 }
 
-#hero-bg-image {
+#hero-section {
   position: relative;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   overflow: hidden;
   #border-top {
     position: absolute;
@@ -123,10 +123,13 @@ export default {
   }
 }
 
-@media only screen and (max-width: 959px) {
-  #hero-bg-image {
-    height: 20vh;
-    border: 30px solid red;
+@media only screen and (max-width: 599px) {
+  #logo-wrap {
+    padding: 0 1em;
+    #logo {
+      height: 90px;
+      background-size: 80%;
+    }
   }
 }
 </style>
