@@ -1,7 +1,9 @@
 <template>
   <div>
     <h1>Therapien</h1>
-    <h2>Als Heilpraktikerin biete ich folgende Therapieformen an:</h2>
+    <h2 class="mb-6">
+      Als Heilpraktikerin biete ich folgende Therapieformen an:
+    </h2>
     <p class="pb-6">
       Klicken Sie auf die einzelnen Therapieformen, um mehr zu erfahren.
     </p>
@@ -10,13 +12,13 @@
 
     <v-expansion-panels flat>
       <v-expansion-panel>
-        <v-expansion-panel-header>
-          <strong>Bachblütentherapie</strong>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Bachblütentherapie</strong>
           <template v-slot:actions>
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content>
+        <v-expansion-panel-content class="px-4">
           <p>. . . ist die bekannteste und älteste Blütentherapie.</p>
           <p>
             Benannt ist sie nach ihrem Begründer, dem englischen Arzt Edward
@@ -41,13 +43,13 @@
       </v-expansion-panel>
 
       <v-expansion-panel>
-        <v-expansion-panel-header>
-          <strong>Migränebehandlung</strong>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Migränebehandlung</strong>
           <template v-slot:actions>
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content>
+        <v-expansion-panel-content class="px-4">
           <p>
             Migräne behandle ich seit vielen Jahren mit individuell
             ausgetesteten spagyrischen Mischungen. Die Behandlung erstreckt sich
@@ -62,13 +64,13 @@
       </v-expansion-panel>
 
       <v-expansion-panel>
-        <v-expansion-panel-header>
-          <strong>Spagyrik</strong>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Spagyrik</strong>
           <template v-slot:actions>
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content>
+        <v-expansion-panel-content class="px-4">
           <p>
             (Spagyrik = aus dem Griechischen, bedeutet trennen und wieder
             zusammenführen)
@@ -104,6 +106,252 @@
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>
+
+    <h3 class="pt-12">Weitere Therapien</h3>
+
+    <v-expansion-panels flat>
+      <v-expansion-panel>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Ausleitende Verfahren</strong>
+          <template v-slot:actions>
+            <v-icon color="#45184a">$expand</v-icon>
+          </template>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content class="px-4">
+          <p>
+            . . . sind entschlackende Methoden, die Zellgifte über Haut und Darm
+            ausleiten und das Immunsystem und den Organismus anregen.
+          </p>
+          <p class="mb-0 font-weight-bold">Schröpfen (unblutig)</p>
+          <p>
+            Schröpfgläser werden an bestimmten Organreflexpunkten am Rücken
+            angesetzt. Dadurch werden die entsprechenden Organe aktiviert und
+            ein Gleichgewicht wiederhergestellt.
+          </p>
+          <p class="mb-0 font-weight-bold">Schröpfmassagen</p>
+          <p>
+            Nach dem Auftragen eines Gleitmittels werden die Schultern und der
+            Bereich neben der Wirbelsäule mit einem großen Schröpfkopf
+            abgefahren. Dabei kommt es gewollt zu schmerzlosen Mikroverletzungen
+            im Gewebe mit dem Ergebnis, dass der Körper im behandelten Bereich
+            stärker durchblutet wird und vorhandener Spannungsschmerz rasch
+            nachlässt.
+          </p>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Body mind centering</strong>
+          <template v-slot:actions>
+            <v-icon color="#45184a">$expand</v-icon>
+          </template>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content class="px-4">
+          <p>
+            . . . ist eine Therapieform, die mit der Eigenschwingung jeder
+            lebendigen Körperzelle arbeitet. BMC geht dabei weit über die
+            Übertragung und den Fluss von Energie mit den Händen hinaus. Der
+            Therapeut erspürt jede Gewebeart individuell und regt sie im
+            individuellen Körperrhythmus wieder zur Resonanz an.
+          </p>
+          <p>
+            Der Therapeut benötigt ein hohes Maß an anatomischen Kenntnissen und
+            Vorstellungskraft, um jederzeit auf die vorhandenen Dissonanzen
+            reagieren zu können. Während der Behandlung kann der Patient
+            verdrängte, nicht gelöste Erfahrungen im Schonraum der Behandlung
+            erleben und neue, adäquate Lösungen für sich ausprobieren.
+          </p>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Fußreflexzonenmassage</strong>
+          <template v-slot:actions>
+            <v-icon color="#45184a">$expand</v-icon>
+          </template>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content class="px-4">
+          <p>
+            . . . zählt zu den Umstimmungs- und Ordnungstherapien. Sie bedient
+            sich spezieller Grifftechniken. Dieses Verfahren sorgt für eine
+            bessere Durchblutung und aktiviert fernwirkend über die
+            Akupunktur-Meridiane die entsprechenden Organe.
+          </p>
+          <p>
+            Ich setze die Fußreflexzonenmassage sowohl bei körperlichen
+            Beschwerden als auch bei Schlafstörungen und Unruhezuständen ein.
+          </p>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Homöopathie</strong>
+          <template v-slot:actions>
+            <v-icon color="#45184a">$expand</v-icon>
+          </template>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content class="px-4">
+          <p>
+            . . . ist eine spezielle Reiztherapie mit dem Ziel, die selbst
+            regulierenden Kräfte des Körpers zu stimulieren. Homöopathie
+            funktioniert nach dem Ähnlichkeitsprinzip: »Ähnliches soll durch
+            Ähnliches geheilt werden«. Dabei werden Stoffe, die gleiche Symptome
+            hervorrufen wie die des Patienten, in einer unterschiedlich hohen
+            Potenzierung gegeben. Ich arbeite sowohl mit Einzelmitteln in
+            niedrigen und mittleren Potenzen als auch mit Komplexmitteln.
+          </p>
+          <p>
+            Dabei ermittle ich nach der genauen Beschreibung der Symptome eine
+            kleine Auswahl von möglichen Mitteln und teste das exakte Mittel,
+            die angemessene Potenz und die Einnahmedauer für den einzelnen
+            Patienten aus.
+          </p>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Living Essences</strong>
+          <template v-slot:actions>
+            <v-icon color="#45184a">$expand</v-icon>
+          </template>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content class="px-4">
+          <p>
+            Diese australischen Blüten wurden von Dr. Vasudeva Barnao gefunden
+            und erforscht. Er entwickelte gemeinsam mit seiner Ehefrau Kadambii
+            auf Grund seiner gemachten Erfahrungen mit diesen Blüten ein breit
+            gefächertes Therapiekonzept, das ganz individuell auf die
+            Problematik des einzelnen Patienten eingehen kann und erlebte
+            negative Strukturen auflöst und zum Verschwinden bringt. Die
+            Erfahrung des Neubeginns wird von den Patienten oft sehr
+            beeindruckend körperlich erlebt und beschrieben.
+          </p>
+          <p>
+            Anders als bei Bachblüten besteht bei Living Essences die
+            Möglichkeit, die Blüten nicht nur einzunehmen, sondern auf
+            besonderen Punkten des Körpers anzulegen bzw. aufzutragen, um eine
+            Wirkung/Reaktion beim Patienten zu ermöglichen.
+          </p>
+          <p>
+            Diese Blüten sind nur für Patienten geeignet, die bereits
+            Erfahrungen in der Arbeit mit Bachblüten gemacht haben. Living
+            Essences unterstützen sehr bei der spirituellen Suche, verlangen
+            aber vom Patienten ein hohes Maß an Bereitschaft, sich auf den
+            aktuellen Prozess und auf eine neue Lösung einzulassen.
+          </p>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Ohrkerzen</strong>
+          <template v-slot:actions>
+            <v-icon color="#45184a">$expand</v-icon>
+          </template>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content class="px-4">
+          <p>
+            . . . sind mit Bienenwachs getränkte Leinenröhrchen. Sie werden nur
+            bei intaktem Trommelfell eingesetzt. Beim Abbrennen kommt es zu
+            einem Kamineffekt, und das Trommelfell wird in Vibration versetzt,
+            das sorgt für Entspannung und Wohlbefinden.
+          </p>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Raucherentwöhnung</strong>
+          <template v-slot:actions>
+            <v-icon color="#45184a">$expand</v-icon>
+          </template>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content class="px-4">
+          <p>
+            . . . erfolgt an mindestens zwei Terminen im Abstand von ein bis
+            zwei Wochen. Voraussetzung ist eine Nikotinkarenz von 24 Stunden vor
+            Behandlungsbeginn!
+          </p>
+          <p>
+            Zunächst wird mit einem Spirometer das aktuelle Atemzugvolumen
+            erfasst. Danach werden die jeweiligen Suchtpunkte am Ohr
+            akupunktiert.
+            <br />Ihre körperliche Entgiftung unterstütze ich durch eine
+            speziell für Sie ausgewählte spagyrische Tropfenmischung, die von
+            einer kooperierenden Apotheke hergestellt wird.
+          </p>
+          <p>
+            Zusätzlich gebe ich ein passendes homöopathisches Einzelmittel, um
+            Begleiterscheinungen des Nikotinentzugs zu lindern. Außerdem
+            unterstütze ich ihre Psyche mit einer individuellen
+            Bachblütenmischung. Vitamine und Enzyme unterstützen ebenfalls den
+            Entgiftungsprozess.
+          </p>
+          <p>Diese mehrstündige Behandlung berechne ich mit 250 €</p>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Reiki</strong>
+          <template v-slot:actions>
+            <v-icon color="#45184a">$expand</v-icon>
+          </template>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content class="px-4">
+          <p>
+            . . . ist eine Methode des natürlichen, energetischen Heilens, bei
+            der positive Lebensenergien fließen, Emotionen harmonisiert werden
+            und eine neue Balance erreicht wird.
+          </p>
+          <p>
+            Der Patient spürt bei der Behandlung ein angenehmes Wärmegefühl im
+            Körper, oft ein Prickeln im Bereich der aufgelegten Hände.
+          </p>
+          <p>
+            Reiki erzeugt ein Gefühl innerer Zufriedenheit, großer Ruhe und
+            tiefer Entspannung. Bei regelmäßiger Behandlung durchläuft der
+            Patient einen Prozess emotionaler und physischer Reinigung und
+            Klärung. Oftmals ist dieser Vorgang an einem intensiveren
+            Stoffwechselgeschehen zu ersehen. Alle Körperflüssigkeiten riechen
+            intensiver, und auch zurückgehaltene, unverarbeitete Emotionen
+            können sich lösen. Dadurch besteht die Möglichkeit der Bearbeitung
+            und Integration von inneren Konflikten.
+          </p>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Schüßlersalze</strong>
+          <template v-slot:actions>
+            <v-icon color="#45184a">$expand</v-icon>
+          </template>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content class="px-4">
+          <p>
+            . . . sind Mineralsalze in homöopathisch niedrigen Potenzen, welche
+            die Funktionsabläufe der Körperzellen wieder ins Gleichgewicht
+            bringen.
+          </p>
+          <p>
+            Es handelt sich dabei um Substanzen, die physiologisch im Körper
+            vorhanden sind und dann verabreicht werden, wenn ein Mangel
+            körperlich erkennbar ist. Durch die homöopathische Potenzierung
+            entfalten Schüßlersalze eher eine funktionelle Wirkung im
+            Zellstoffwechsel. Die aufbereiteten Mineralsalze werden bereits über
+            die Mundschleimhaut in den Organismus aufgenommen und sind somit
+            schneller verfügbar und können Störungen des Gleichgewichts zwischen
+            dem inneren Milieu der Zellen und den Zellzwischenräumen
+            ausgleichen.
+          </p>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </v-expansion-panels>
   </div>
 </template>
 
@@ -116,3 +364,9 @@ export default {
   },
 }
 </script>
+
+<style>
+.accordion-header {
+  order: 1;
+}
+</style>
