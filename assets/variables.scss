@@ -9,9 +9,15 @@
 
 $primary: #5e2368;
 $font-size-root: 17px !default;
-$line-height-root: 1.8 !default;
+$line-height-root: 2 !default;
 $border-radius-root: 0 !default;
 $body-font-family: "Palanquin", sans-serif;
+
+$material-light: (
+  text:(
+    primary:rgba(51,51,51,1)
+  ),
+);
 
 
 
