@@ -23,6 +23,8 @@ export default {
         therapien: 'bg_therapien.jpg',
         kurse: 'bg_kurse.jpg',
         uebermich: 'bg_ueber_mich.jpg',
+        impressum: 'bg_impressum.jpg',
+        datenschutz: 'bg_datenschutz.jpg',
       }
       return mapping[this.$route.name] || 'bg_start.jpg'
     },

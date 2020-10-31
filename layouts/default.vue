@@ -18,8 +18,8 @@
     <v-footer color="#fff" class="pa-0">
       <div class="footer-wrap">
         <div class="footer">
-          <nuxt-link to="/"> Datenschutz </nuxt-link><br />
-          <nuxt-link to="/"> Impressum </nuxt-link>
+          <nuxt-link to="/datenschutz"> Datenschutz </nuxt-link><br />
+          <nuxt-link to="/impressum"> Impressum </nuxt-link>
         </div>
       </div>
     </v-footer>
