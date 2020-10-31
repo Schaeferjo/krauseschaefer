@@ -51,6 +51,10 @@ export default {
           to: '/therapien',
         },
         {
+          title: 'Kurse',
+          to: '/kurse',
+        },
+        {
           title: 'Kontakt',
           to: '/kontakt',
         },

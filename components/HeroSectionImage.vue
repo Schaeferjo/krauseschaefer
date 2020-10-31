@@ -21,6 +21,7 @@ export default {
       const mapping = {
         index: 'bg_start.jpg',
         therapien: 'bg_therapien.jpg',
+        kurse: 'bg_kurse.jpg',
       }
       return mapping[this.$route.name] || 'bg_start.jpg'
     },
