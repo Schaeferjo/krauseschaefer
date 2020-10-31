@@ -16,9 +16,7 @@
         >02246 . 69 14</a
       >
       <br />
-
       <span class="font-weight-bold">E-Mail:</span>
-
       <a
         href="mailto:info@krause-schaefer.de"
         title="E-Mail mit Ihrem Standard Mailprogramm schreiben"

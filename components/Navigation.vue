@@ -55,6 +55,10 @@ export default {
           to: '/kurse',
         },
         {
+          title: 'Über mich',
+          to: '/uebermich',
+        },
+        {
           title: 'Kontakt',
           to: '/kontakt',
         },

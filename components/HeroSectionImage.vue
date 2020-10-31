@@ -22,6 +22,7 @@ export default {
         index: 'bg_start.jpg',
         therapien: 'bg_therapien.jpg',
         kurse: 'bg_kurse.jpg',
+        uebermich: 'bg_ueber_mich.jpg',
       }
       return mapping[this.$route.name] || 'bg_start.jpg'
     },

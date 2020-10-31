@@ -2,14 +2,12 @@
   <div>
     <h1>Therapien</h1>
     <h2 class="mb-6">
-      Als Heilpraktikerin biete ich folgende Therapieformen an:
+      Als Heilpraktikerin biete ich folgende Therapieformen an
     </h2>
     <p class="pb-6">
       Klicken Sie auf die einzelnen Therapieformen, um mehr zu erfahren.
     </p>
-
     <h3>Praxisschwerpunkte</h3>
-
     <v-expansion-panels flat>
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
@@ -41,7 +39,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Migränebehandlung</strong>
@@ -62,7 +59,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Spagyrik</strong>
@@ -106,9 +102,7 @@
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>
-
     <h3 class="pt-12">Weitere Therapien</h3>
-
     <v-expansion-panels flat>
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
@@ -139,7 +133,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Body mind centering</strong>
@@ -164,7 +157,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Fußreflexzonenmassage</strong>
@@ -185,7 +177,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Homöopathie</strong>
@@ -211,7 +202,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Living Essences</strong>
@@ -245,7 +235,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Ohrkerzen</strong>
@@ -262,7 +251,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Raucherentwöhnung</strong>
@@ -294,7 +282,6 @@
           <p>Diese mehrstündige Behandlung berechne ich mit 250 €</p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Reiki</strong>
@@ -324,7 +311,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Schüßlersalze</strong>

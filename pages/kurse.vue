@@ -8,7 +8,6 @@
       nach dem nächsten Termin für den Kurs und lassen sie sich auf eine
       unverbindliche Warteliste setzen.
     </p>
-
     <v-expansion-panels flat>
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
@@ -29,7 +28,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4"
@@ -65,7 +63,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Fußreflexzonenmassage</strong>
@@ -87,7 +84,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4"
@@ -106,7 +102,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Engelseminare</strong>
@@ -124,7 +119,6 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
-
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Reiki-Kurse</strong>
@@ -160,7 +154,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .accordion-header {
   order: 1;
 }
