@@ -11,7 +11,7 @@
           >
             <l-control-zoom position="topright"></l-control-zoom>
             <l-tile-layer
-              url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             ></l-tile-layer>
             <l-marker :lat-lng="[50.8561, 7.2776]">
               <l-icon
