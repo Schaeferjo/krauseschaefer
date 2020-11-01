@@ -31,5 +31,16 @@
       Termine, die nicht mindestens 24 Stunden vorher abgesagt werden, werden in
       Rechnung gestellt.
     </p>
+
+    <ContactForm />
   </div>
 </template>
+
+<script>
+import ContactForm from '~/components/ContactForm.vue'
+export default {
+  components: {
+    ContactForm,
+  },
+}
+</script>

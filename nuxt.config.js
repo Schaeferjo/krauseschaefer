@@ -51,6 +51,8 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    // https://axios.nuxtjs.org/
+    '@nuxtjs/axios',
     // https://www.npmjs.com/package/@nuxtjs/sitemap
     '@nuxtjs/sitemap',
     // https://go.nuxtjs.dev/pwa
