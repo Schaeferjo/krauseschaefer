@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="logo-wrap">
-      <nuxt-link to="/">
+      <nuxt-link to="/" aria-label="Startseite">
         <div id="logo"></div>
       </nuxt-link>
     </div>
