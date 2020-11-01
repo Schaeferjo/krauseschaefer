@@ -17,6 +17,18 @@
           </template>
         </v-expansion-panel-header>
         <v-expansion-panel-content class="px-4">
+          <v-container>
+            <v-row>
+              <v-col>
+                <v-img
+                  class="mx-auto"
+                  src="images/bachblueten.jpg"
+                  alt="Bachblüten | Naturheilpraxis Krause-Schäfer Deesem"
+                ></v-img>
+              </v-col>
+            </v-row>
+          </v-container>
+
           <p>. . . ist die bekannteste und älteste Blütentherapie.</p>
           <p>
             Benannt ist sie nach ihrem Begründer, dem englischen Arzt Edward
@@ -165,16 +177,30 @@
           </template>
         </v-expansion-panel-header>
         <v-expansion-panel-content class="px-4">
-          <p>
-            . . . zählt zu den Umstimmungs- und Ordnungstherapien. Sie bedient
-            sich spezieller Grifftechniken. Dieses Verfahren sorgt für eine
-            bessere Durchblutung und aktiviert fernwirkend über die
-            Akupunktur-Meridiane die entsprechenden Organe.
-          </p>
-          <p>
-            Ich setze die Fußreflexzonenmassage sowohl bei körperlichen
-            Beschwerden als auch bei Schlafstörungen und Unruhezuständen ein.
-          </p>
+          <v-container>
+            <v-row>
+              <v-col cols="3" xs="3" sm="3" md="3" lg="3" xl="3">
+                <v-img
+                  class="mx-auto"
+                  src="images/fussflex.jpg"
+                  alt="Fußreflexzonenmassage | Naturheilpraxis Krause-Schäfer Deesem"
+                ></v-img>
+              </v-col>
+              <v-col cols="9" xs="9" sm="9" md="9" lg="9" xl="9">
+                <p>
+                  . . . zählt zu den Umstimmungs- und Ordnungstherapien. Sie
+                  bedient sich spezieller Grifftechniken. Dieses Verfahren sorgt
+                  für eine bessere Durchblutung und aktiviert fernwirkend über
+                  die Akupunktur-Meridiane die entsprechenden Organe.
+                </p>
+                <p>
+                  Ich setze die Fußreflexzonenmassage sowohl bei körperlichen
+                  Beschwerden als auch bei Schlafstörungen und Unruhezuständen
+                  ein.
+                </p>
+              </v-col>
+            </v-row>
+          </v-container>
         </v-expansion-panel-content>
       </v-expansion-panel>
       <v-expansion-panel>
@@ -235,6 +261,41 @@
           </p>
         </v-expansion-panel-content>
       </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header class="px-0">
+          <strong class="accordion-header pl-4">Ohr-Akupunktur</strong>
+          <template v-slot:actions>
+            <v-icon color="#45184a">$expand</v-icon>
+          </template>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content class="px-4">
+          <v-container>
+            <v-row>
+              <v-col cols="3" xs="3" sm="3" md="3" lg="3" xl="3">
+                <v-img
+                  class="mx-auto"
+                  src="images/ohrakupunktur.jpg"
+                  alt="Ohrakupunktur | Naturheilpraxis Krause-Schäfer Deesem"
+                ></v-img>
+              </v-col>
+
+              <v-col cols="9" xs="9" sm="9" md="9" lg="9" xl="9">
+                <p>
+                  . . . ist ein Teilgebiet der Körperakupunktur. Bei dieser
+                  Therapieform werden die Akupunkturnadeln ausschließlich am Ohr
+                  gesetzt.
+                </p>
+                <p>
+                  Ich setze die Ohr-Akupunktur zur Raucherentwöhnung und bei
+                  bestimmten Schmerzzuständen ein.
+                </p>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
       <v-expansion-panel>
         <v-expansion-panel-header class="px-0">
           <strong class="accordion-header pl-4">Ohrkerzen</strong>
@@ -351,8 +412,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .accordion-header {
   order: 1;
+}
+
+.v-expansion-panel-header--active {
+  .accordion-header {
+    color: $primary;
+  }
 }
 </style>

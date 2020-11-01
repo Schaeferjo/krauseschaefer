@@ -10,7 +10,8 @@
     <p class="font-weight-bold mb-0 pt-6">Individuelle Behandlung</p>
     <p>
       Ich nehme mir daher für jeden Patienten die angemessene Zeit und
-      Aufmerksamkeit, um eine angemessene Therapie zu finden und um die zu
+      Aufmerksamkeit, um eine angemessene
+      <nuxt-link to="/therapien">Therapie</nuxt-link> zu finden und um die zu
       Grunde liegenden Konflikte zu lösen. Ich begleite Sie auf Ihrem
       Heilungsprozess und unterstütze Ihre Fortschritte.
     </p>
