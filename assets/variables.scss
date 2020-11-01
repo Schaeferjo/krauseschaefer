@@ -15,10 +15,10 @@ $body-font-family: "Palanquin", sans-serif;
 
 $material-light: (
   text:(
-    primary:rgba(51,51,51,1)
+    primary:rgba(51,51,51,1),
+    secondary:rgba(51,51,51,1)
   ),
 );
-
 
 
 // DEVICE RESET
@@ -122,4 +122,8 @@ ul {
         color: rgb(94, 35, 104) !important;
       }
     }
+  }
+
+  .v-label{
+    font-size:17px !important;
   }

@@ -3,9 +3,9 @@
     Vielen Dank für Ihre Nachricht!
   </v-alert>
   <v-form v-else ref="form" v-model="valid" @submit.prevent="submit">
-    <h2>Nutzen Sie das Kontaktformular</h2>
+    <h2 class="pt-6 mb-6">Nutzen Sie das Kontaktformular</h2>
     <v-row>
-      <v-col>
+      <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <v-text-field
           v-model="formData.name"
           :rules="existRules"
@@ -17,18 +17,18 @@
     </v-row>
 
     <v-row>
-      <v-col>
+      <v-col cols="12" xs="12" sm="6" md="6" lg="6" xl="6">
         <v-text-field
           v-model="formData.email"
           type="email"
           :rules="emailRules"
-          label="E-mail"
+          label="E-Mail"
           required
           filled
         ></v-text-field>
       </v-col>
 
-      <v-col>
+      <v-col cols="12" xs="12" sm="6" md="6" lg="6" xl="6">
         <v-text-field
           v-model="formData.phoneNumber"
           type="tel"
@@ -41,12 +41,11 @@
     </v-row>
 
     <v-row>
-      <v-col>
+      <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <v-textarea
           v-model="formData.message"
-          label="Nachricht"
+          label="Ihre Nachricht"
           :rules="existRules"
-          placeholder="Ihre Nachricht, die an info@krause-schaefer.de geschickt werden soll"
           rows="3"
           required
           filled
@@ -55,16 +54,14 @@
     </v-row>
 
     <v-row>
-      <v-col>
+      <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <v-checkbox v-model="checkbox" :rules="agbRules" required>
           <template v-slot:label>
-            <div>
-              Ich habe die
-              <nuxt-link to="/agb">Allgemeinen Geschäftsbedingungen</nuxt-link
-              >&nbsp;und die
-              <nuxt-link to="/datenschutz">Datenschutzerklärung</nuxt-link
-              >&nbsp;gelesen und stimme beiden zu.
-            </div>
+            <span color="red">
+              Ich habe die&nbsp;<nuxt-link to="/datenschutz"
+                >Datenschutzerklärung</nuxt-link
+              >&nbsp;gelesen und stimme ihnen zu.
+            </span>
           </template>
         </v-checkbox>
       </v-col>
@@ -77,10 +74,11 @@
     </v-alert>
 
     <v-row>
-      <v-col>
+      <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <v-btn
           color="primary"
           type="submit"
+          class="font-weight-bold"
           large
           :disabled="!valid"
           :loading="loading"
@@ -156,3 +154,9 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+label {
+  color: rgba(0, 0, 0, 1) !important;
+}
+</style>
