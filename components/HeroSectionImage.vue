@@ -2,7 +2,7 @@
   <v-img
     :src="imgUrl"
     :srcset="imgSourceSet"
-    class="herosectionheight"
+    class="hero-section"
     sizes="(min-width: 960px) 100vw, 100vw"
     alt="Naturheilpraxis Krause-Schäfer Deesem (Heilpraktiker für Lohmar, Siegburg, Neunkirchen-Seelscheid)"
   ></v-img>
@@ -33,7 +33,8 @@ export default {
 </script>
 
 <style lang="scss">
-.herosectionheight {
-  height: 45vh !important;
+.hero-section {
+  height: 100%;
+  max-height: 40vh;
 }
 </style>

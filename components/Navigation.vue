@@ -1,7 +1,7 @@
 <template>
   <v-list id="nav_default" flat nav class="px-6">
     <div id="navigation-contact">
-      <p>
+      <p class="mb-0">
         <span class="font-weight-bold">Telefon:</span>
 
         <a
@@ -10,7 +10,7 @@
           >02246 . 69 14</a
         >
       </p>
-      <p>
+      <p class="mb-5">
         <span class="font-weight-bold">E-Mail:</span>
         <a
           href="mailto:info@krause-schaefer.de"
@@ -80,22 +80,24 @@ export default {
   a.v-list-item {
     border-radius: 0;
     color: $primary;
+    margin-bottom: 3px !important;
     .v-list-item__content {
+      padding: 8px 0 12px 0;
       .v-list-item__title {
         color: $primary;
         font-family: 'Playfair Display SC', sans-serif;
-        font-size: 1.8em;
+        font-size: 1.6em;
         &::before {
           content: '▸';
           color: #fff;
           display: block;
           position: absolute;
-          top: 0;
+          top: 8px;
           width: 30px;
           height: 1em;
-          line-height: 1.3em;
+          line-height: 1em;
           left: -40px;
-          font-size: 1.3em;
+          font-size: 1.1em;
           -webkit-transition: all 0.3s ease-in-out;
           -moz-transition: all 0.3s ease-in-out;
           -o-transition: all 0.3s ease-in-out;

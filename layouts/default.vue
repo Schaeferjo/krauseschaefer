@@ -15,13 +15,11 @@
       </v-container>
     </v-main>
 
-    <v-footer color="#fff" class="pa-0">
+    <v-footer color="#ccc" class="pa-0">
       <div class="footer-wrap">
         <div class="footer">
-          <nuxt-link to="/impressum">Impressum</nuxt-link><br /><nuxt-link
-            to="/datenschutz"
-            >Datenschutz</nuxt-link
-          ><br />
+          <nuxt-link to="/impressum">Impressum</nuxt-link>|
+          <nuxt-link to="/datenschutz">Datenschutz</nuxt-link>|
           <span class="font-weight-bold"
             >Copyright {{ new Date().getFullYear() }}</span
           >
@@ -46,16 +44,41 @@ export default {
 <style lang="scss">
 .content-wrap {
   max-width: 1280px;
+  padding-top: 0 !important;
+  padding-bottom: 3em !important;
 }
 
-.footer-wrap {
-  width: 100%;
-  max-width: 1280px;
-  margin: auto;
-  padding: 0 2em;
-  .footer {
-    width: 280px;
-    padding: 1em;
+.v-footer {
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-image: url('/images/border_top.svg');
+    background-size: auto 10px;
+    background-repeat: repeat-x;
+  }
+  .footer-wrap {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 2em;
+    .footer {
+      padding: 1em;
+      &::before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-left: 103px;
+        top: -15px;
+        background-color: #fff;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
   }
 }
 </style>
