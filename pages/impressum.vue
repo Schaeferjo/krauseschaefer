@@ -1,14 +1,13 @@
 <template>
   <div>
     <h1>Impressum</h1>
-    <h2 class="mb-6">Verantwortlich nach §5 TMG</h2>
+    <h2>Verantwortlich nach §5 TMG</h2>
     <v-container>
-      <v-row class="pt-8 align-baseline">
+      <v-row class="align-baseline">
         <v-col
           cols="12"
           xs="12"
-          sm="8"
-          offset-sm="4"
+          sm="12"
           md="8"
           offset-md="4"
           lg="8"
@@ -44,10 +43,10 @@
             <br />Es gilt die allgemeine Gebührenordnung für Heilpraktiker.
           </p>
         </v-col>
-        <v-col cols="12" xs="12" sm="4" md="4" lg="4" xl="4">
-          <h3 class="pb-3">Berufsbezeichnung</h3>
+        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
+          <h3>Berufsbezeichnung</h3>
         </v-col>
-        <v-col cols="12" xs="12" sm="8" md="8" lg="8" xl="8">
+        <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8" class="pt-0">
           <p>
             Die Berufsbezeichnung lautet »Heilpraktiker«. Die Zulassung als
             Heilpraktikerin wurde in Deutschland vergeben.
@@ -55,10 +54,10 @@
             <br />
           </p>
         </v-col>
-        <v-col cols="12" xs="12" sm="4" md="4" lg="4" xl="4">
-          <h3 class="pb-3">Rechtliche Hinweise</h3>
+        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
+          <h3>Rechtliche Hinweise</h3>
         </v-col>
-        <v-col cols="12" xs="12" sm="8" md="8" lg="8" xl="8">
+        <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8" class="pt-0">
           <p>
             Aus rechtlichen Gründen wird darauf hingewiesen, dass in der
             Benennung der beispielhaft aufgeführten Anwendungsgebiete
@@ -71,10 +70,10 @@
             die Wirkung bzw. therapeutische Wirksamkeit belegen.
           </p>
         </v-col>
-        <v-col cols="12" xs="12" sm="4" md="4" lg="4" xl="4">
-          <h3 class="pb-3">Haftungsausschluss</h3>
+        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
+          <h3>Haftungsausschluss</h3>
         </v-col>
-        <v-col cols="12" xs="12" sm="8" md="8" lg="8" xl="8">
+        <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8" class="pt-0">
           <p>
             Die Inhalte dieser Seiten wurden mit größter Sorgfalt erstellt. Für
             die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann ich
@@ -92,10 +91,10 @@
             Inhalte umgehend entfernen.
           </p>
         </v-col>
-        <v-col cols="12" xs="12" sm="4" md="4" lg="4" xl="4">
-          <h3 class="pb-3">Haftung für Links</h3>
+        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
+          <h3>Haftung für Links</h3>
         </v-col>
-        <v-col cols="12" xs="12" sm="8" md="8" lg="8" xl="8">
+        <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8" class="pt-0">
           <p>
             Mein Angebot enthält Links zu externen Webseiten Dritter, auf deren
             Inhalte ich keinen Einfluss habe. Deshalb kann ich für diese fremden
@@ -105,10 +104,10 @@
             gilt für alle auf meine Webseite angebrachten Links.
           </p>
         </v-col>
-        <v-col cols="12" xs="12" sm="4" md="4" lg="4" xl="4">
-          <h3 class="pb-3">Keine Abmahnung ohne vorherigen Kontakt</h3>
+        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
+          <h3>Keine Abmahnung ohne vorherigen Kontakt</h3>
         </v-col>
-        <v-col cols="12" xs="12" sm="8" md="8" lg="8" xl="8">
+        <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8" class="pt-0">
           <p>
             Sollten irgendwelche Inhalte oder die designtechnische Gestaltung
             einzelner Seiten oder Teile dieser Internetseite fremde Rechte
@@ -134,13 +133,12 @@
             Schadensminderungspflicht darstellen.
           </p>
         </v-col>
-        <v-col cols="12" xs="12" sm="4" md="4" lg="4" xl="4">
-          <h3 class="pb-3">Webdesign, technische Umsetzung und Fotos</h3>
+        <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
+          <h3>Webdesign, technische Umsetzung und Fotos</h3>
         </v-col>
-        <v-col cols="12" xs="12" sm="8" md="8" lg="8" xl="8">
+        <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8" class="pt-0">
           <p>
-            Jo Schäfer
-            <br />Digital Media Design
+            Jo Schäfer | Digital Media Design
             <br />
             <a href="https://joschaefer.com" target="_blank" rel="noopener"
               >joschaefer.com</a

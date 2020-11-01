@@ -18,8 +18,13 @@
     <v-footer color="#fff" class="pa-0">
       <div class="footer-wrap">
         <div class="footer">
-          <nuxt-link to="/datenschutz"> Datenschutz </nuxt-link><br />
-          <nuxt-link to="/impressum"> Impressum </nuxt-link>
+          <nuxt-link to="/impressum">Impressum</nuxt-link><br /><nuxt-link
+            to="/datenschutz"
+            >Datenschutz</nuxt-link
+          ><br />
+          <span class="font-weight-bold"
+            >Copyright {{ new Date().getFullYear() }}</span
+          >
         </div>
       </div>
     </v-footer>
@@ -50,7 +55,6 @@ export default {
   padding: 0 2em;
   .footer {
     width: 280px;
-    background-color: #5e2368;
     padding: 1em;
   }
 }

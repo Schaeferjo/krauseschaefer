@@ -2,7 +2,7 @@
   <div>
     <h1>Kontakt</h1>
     <h2 class="mb-6">Kontaktdaten und Terminvereinbarungen</h2>
-    <h3>Naturheilpraxis Rose Krause-Schäfer</h3>
+    <h3 class="pt-3">Naturheilpraxis Rose Krause-Schäfer</h3>
     <p>
       Unterdorfstraße 5
       <br />53797 Lohmar- Deesem

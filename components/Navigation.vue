@@ -12,7 +12,6 @@
       </p>
       <p>
         <span class="font-weight-bold">E-Mail:</span>
-
         <a
           href="mailto:info@krause-schaefer.de"
           title="E-Mail mit Ihrem Standard Mailprogramm schreiben"
@@ -94,9 +93,9 @@ export default {
           top: 0;
           width: 30px;
           height: 1em;
-          line-height: 1.2em;
+          line-height: 1.3em;
           left: -40px;
-          font-size: 1.5em;
+          font-size: 1.3em;
           -webkit-transition: all 0.3s ease-in-out;
           -moz-transition: all 0.3s ease-in-out;
           -o-transition: all 0.3s ease-in-out;

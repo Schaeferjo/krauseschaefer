@@ -18,7 +18,7 @@
       <v-row class="pt-8">
         <v-col cols="12" xs="12" sm="6" md="6" lg="6" xl="6">
           <h3 class="pb-3">Beruflicher Werdegang</h3>
-          <ul class="cv">
+          <ul>
             <li>Erzieherin</li>
             <li>Kindergartenleiterin bis 1981</li>
             <li>Fachabitur 1982</li>
@@ -37,7 +37,7 @@
         </v-col>
         <v-col cols="12" xs="12" sm="6" md="6" lg="6" xl="6">
           <h3 class="pb-3">Lebensarbeitsschwerpunkte</h3>
-          <ul class="cv">
+          <ul>
             <li>Individuelle spirituelle Suche und Entfaltung</li>
             <li>Offenheit für Neubegegnungen und Sehweisen</li>
             <li>Emotionale Kompetenz und Selbstverantwortung</li>
@@ -62,24 +62,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-ul.cv {
-  li {
-    list-style-type: none;
-    padding: 0.1em 0 0.25em 1em;
-    font-size: 1em;
-    margin: 0;
-    &::before {
-      content: '▸';
-      width: 3em;
-      margin-left: -2em;
-      padding-right: 2em;
-      height: 10px;
-      display: inline-block;
-      position: absolute;
-      color: rgb(94, 35, 104) !important;
-    }
-  }
-}
-</style>
