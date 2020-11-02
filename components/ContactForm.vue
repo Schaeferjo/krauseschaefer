@@ -1,9 +1,20 @@
 <template>
-  <v-alert v-if="success" outlined type="success">
-    Vielen Dank für Ihre Nachricht!
+  <v-alert v-if="success" type="success" class="message_sent">
+    <h2 class="white--text font-weight-bold mt-n1 mb-0">Gesendet</h2>
+    <p>
+      Vielen Dank für Ihre Nachricht. Ich werde mich zeitnah bei Ihnen melden.
+    </p>
+    <p>
+      <v-btn
+        depressed
+        class="font-weight-bold"
+        color="white success--text"
+        @click="to"
+        >Okay</v-btn
+      >
+    </p>
   </v-alert>
   <v-form v-else ref="form" v-model="valid" @submit.prevent="submit">
-    <h2 class="pt-6 mb-6">Nutzen Sie das Kontaktformular</h2>
     <v-row>
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
         <v-text-field
@@ -50,24 +61,22 @@
           required
           filled
         ></v-textarea>
+        <p>
+          <v-checkbox v-model="checkbox" :rules="agbRules" required>
+            <template v-slot:label>
+              <span color="red">
+                Ich habe die&nbsp;
+                <nuxt-link to="/datenschutz">Datenschutzerklärung</nuxt-link
+                >&nbsp;gelesen und stimme dieser zu.
+              </span>
+            </template>
+          </v-checkbox>
+        </p>
       </v-col>
     </v-row>
 
-    <v-row>
-      <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
-        <v-checkbox v-model="checkbox" :rules="agbRules" required>
-          <template v-slot:label>
-            <span color="red">
-              Ich habe die&nbsp;<nuxt-link to="/datenschutz"
-                >Datenschutzerklärung</nuxt-link
-              >&nbsp;gelesen und stimme ihnen zu.
-            </span>
-          </template>
-        </v-checkbox>
-      </v-col>
-    </v-row>
-
-    <v-alert v-if="error" text type="error" class="font-weight-bold">
+    <v-alert v-if="error" text type="error">
+      <h2 class="error--text font-weight-bold mt-n1 mb-0">Fehler!</h2>
       Ups, da ist etwas schief gelaufen. Bitte versuchen Sie es erneut und wenn
       das Problem weiterhin besteht, kontaktieren Sie mich bitte per E-Mail an
       <a href="mailto:info@krause-schaefer.de">info@krause-schaefer.de</a>.
@@ -82,9 +91,8 @@
           large
           :disabled="!valid"
           :loading="loading"
+          >Nachricht versenden</v-btn
         >
-          Nachricht versenden
-        </v-btn>
       </v-col>
     </v-row>
   </v-form>
@@ -93,7 +101,7 @@
 <script>
 import axios from 'axios'
 
-const existRules = [(v) => !!v || 'muss angegeben werden']
+const existRules = [(v) => !!v || 'Pflichtfeld']
 const encodeData = (data) => {
   return Object.keys(data)
     .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
@@ -151,12 +159,29 @@ export default {
         this.loading = false
       }
     },
+    to() {
+      this.$router.go('/kontakt')
+    },
   },
 }
 </script>
 
 <style lang="scss" scoped>
-label {
-  color: rgba(0, 0, 0, 1) !important;
+.message_sent {
+  &::before {
+    content: '';
+    width: 0;
+    height: 0;
+    display: inline-block;
+    position: absolute;
+    bottom: -15px;
+    left: 15px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #2e7d32;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
 }
 </style>

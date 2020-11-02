@@ -80,7 +80,7 @@ export default {
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.red.darken4,
-          success: colors.green.accent3,
+          success: colors.green.darken3,
         },
       },
     },

@@ -31,7 +31,7 @@
       Termine, die nicht mindestens 24 Stunden vorher abgesagt werden, werden in
       Rechnung gestellt.
     </p>
-
+    <h2 class="pt-6 mb-6">Nutzen Sie das Kontaktformular</h2>
     <ContactForm />
   </div>
 </template>
