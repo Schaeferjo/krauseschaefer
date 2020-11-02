@@ -57,9 +57,10 @@ export default {
     '@nuxtjs/sitemap',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-
     // see: https://github.com/schlunsen/nuxt-leaflet
     'nuxt-leaflet',
+    // see: https://github.com/pimlie/nuxt-matomo
+    ['nuxt-matomo', { matomoUrl: '//matomo.example.com/', siteId: 1 }],
   ],
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
