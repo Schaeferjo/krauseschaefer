@@ -70,6 +70,7 @@ export default {
 <style lang="scss" scoped>
 #navigation-contact {
   p {
+    padding: 0 8px;
     span {
       width: 65px;
       display: inline-block;
