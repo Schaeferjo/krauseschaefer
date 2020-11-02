@@ -23,7 +23,7 @@
             <li>Kindergartenleiterin bis 1981</li>
             <li>Fachabitur 1982</li>
             <li>Freischaffende Keramikerin</li>
-            <li>Heilpraktikerschule F. Kasack, Much 1993 - 1997</li>
+            <li>Heilpraktikerschule F. Kasack, Much 1993 bis 1997</li>
             <li>
               Erlaubnis zur Führung der Berufbezeichnung »Heilpraktikerin« seit
               dem 12. November 1997 durch das Gesundheitsamt Siegburg

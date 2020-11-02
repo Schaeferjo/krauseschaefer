@@ -16,7 +16,7 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <v-container>
             <v-row>
               <v-col>
@@ -58,7 +58,7 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <p>
             Migräne behandle ich seit vielen Jahren mit individuell
             ausgetesteten spagyrischen Mischungen. Die Behandlung erstreckt sich
@@ -78,7 +78,7 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <p>
             (Spagyrik = aus dem Griechischen, bedeutet trennen und wieder
             zusammenführen)
@@ -123,7 +123,7 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <p>
             . . . sind entschlackende Methoden, die Zellgifte über Haut und Darm
             ausleiten und das Immunsystem und den Organismus anregen.
@@ -152,7 +152,7 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <p>
             . . . ist eine Therapieform, die mit der Eigenschwingung jeder
             lebendigen Körperzelle arbeitet. BMC geht dabei weit über die
@@ -176,17 +176,18 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <v-container>
             <v-row>
-              <v-col cols="3" xs="3" sm="3" md="3" lg="3" xl="3">
+              <v-col cols="12" xs="12" sm="3" md="12" lg="3" xl="3">
                 <v-img
                   class="mx-auto"
                   src="images/fussflex.jpg"
+                  max-width="180"
                   alt="Fußreflexzonenmassage | Naturheilpraxis Krause-Schäfer Deesem"
                 ></v-img>
               </v-col>
-              <v-col cols="9" xs="9" sm="9" md="9" lg="9" xl="9">
+              <v-col cols="12" xs="9" sm="9" md="12" lg="9" xl="9">
                 <p>
                   . . . zählt zu den Umstimmungs- und Ordnungstherapien. Sie
                   bedient sich spezieller Grifftechniken. Dieses Verfahren sorgt
@@ -210,7 +211,7 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <p>
             . . . ist eine spezielle Reiztherapie mit dem Ziel, die selbst
             regulierenden Kräfte des Körpers zu stimulieren. Homöopathie
@@ -235,7 +236,7 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <p>
             Diese australischen Blüten wurden von Dr. Vasudeva Barnao gefunden
             und erforscht. Er entwickelte gemeinsam mit seiner Ehefrau Kadambii
@@ -269,18 +270,19 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <v-container>
             <v-row>
-              <v-col cols="3" xs="3" sm="3" md="3" lg="3" xl="3">
+              <v-col cols="12" xs="12" sm="3" md="12" lg="3" xl="3">
                 <v-img
                   class="mx-auto"
+                  max-width="180"
                   src="images/ohrakupunktur.jpg"
                   alt="Ohrakupunktur | Naturheilpraxis Krause-Schäfer Deesem"
                 ></v-img>
               </v-col>
 
-              <v-col cols="9" xs="9" sm="9" md="9" lg="9" xl="9">
+              <v-col cols="12" xs="12" sm="9" md="12" lg="9" xl="9">
                 <p>
                   . . . ist ein Teilgebiet der Körperakupunktur. Bei dieser
                   Therapieform werden die Akupunkturnadeln ausschließlich am Ohr
@@ -303,13 +305,29 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
-          <p>
-            . . . sind mit Bienenwachs getränkte Leinenröhrchen. Sie werden nur
-            bei intaktem Trommelfell eingesetzt. Beim Abbrennen kommt es zu
-            einem Kamineffekt, und das Trommelfell wird in Vibration versetzt,
-            das sorgt für Entspannung und Wohlbefinden.
-          </p>
+        <v-expansion-panel-content>
+          <v-container>
+            <v-row>
+              <v-col cols="12" xs="12" sm="3" md="12" lg="3" xl="3">
+                <v-img
+                  class="mx-auto"
+                  max-width="180"
+                  src="images/ohrkerze.jpg"
+                  alt="Ohrkerzen | Naturheilpraxis Krause-Schäfer Deesem"
+                ></v-img>
+              </v-col>
+
+              <v-col cols="12" xs="12" sm="9" md="12" lg="9" xl="9">
+                <p>
+                  . . . sind mit Bienenwachs getränkte Leinenröhrchen. Sie
+                  werden nur bei intaktem Trommelfell eingesetzt. Beim Abbrennen
+                  kommt es zu einem Kamineffekt, und das Trommelfell wird in
+                  Vibration versetzt, das sorgt für Entspannung und
+                  Wohlbefinden.
+                </p>
+              </v-col>
+            </v-row>
+          </v-container>
         </v-expansion-panel-content>
       </v-expansion-panel>
       <v-expansion-panel>
@@ -319,7 +337,7 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <p>
             . . . erfolgt an mindestens zwei Terminen im Abstand von ein bis
             zwei Wochen. Voraussetzung ist eine Nikotinkarenz von 24 Stunden vor
@@ -350,26 +368,41 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
-          <p>
-            . . . ist eine Methode des natürlichen, energetischen Heilens, bei
-            der positive Lebensenergien fließen, Emotionen harmonisiert werden
-            und eine neue Balance erreicht wird.
-          </p>
-          <p>
-            Der Patient spürt bei der Behandlung ein angenehmes Wärmegefühl im
-            Körper, oft ein Prickeln im Bereich der aufgelegten Hände.
-          </p>
-          <p>
-            Reiki erzeugt ein Gefühl innerer Zufriedenheit, großer Ruhe und
-            tiefer Entspannung. Bei regelmäßiger Behandlung durchläuft der
-            Patient einen Prozess emotionaler und physischer Reinigung und
-            Klärung. Oftmals ist dieser Vorgang an einem intensiveren
-            Stoffwechselgeschehen zu ersehen. Alle Körperflüssigkeiten riechen
-            intensiver, und auch zurückgehaltene, unverarbeitete Emotionen
-            können sich lösen. Dadurch besteht die Möglichkeit der Bearbeitung
-            und Integration von inneren Konflikten.
-          </p>
+        <v-expansion-panel-content>
+          <v-container>
+            <v-row>
+              <v-col cols="12" xs="12" sm="3" md="12" lg="3" xl="3">
+                <v-img
+                  class="mx-auto"
+                  src="images/reiki.jpg"
+                  max-width="180"
+                  alt="Reiki | Naturheilpraxis Krause-Schäfer Deesem"
+                ></v-img>
+              </v-col>
+              <v-col cols="12" xs="9" sm="9" md="12" lg="9" xl="9">
+                <p>
+                  . . . ist eine Methode des natürlichen, energetischen Heilens,
+                  bei der positive Lebensenergien fließen, Emotionen
+                  harmonisiert werden und eine neue Balance erreicht wird.
+                </p>
+                <p>
+                  Der Patient spürt bei der Behandlung ein angenehmes
+                  Wärmegefühl im Körper, oft ein Prickeln im Bereich der
+                  aufgelegten Hände.
+                </p>
+                <p>
+                  Reiki erzeugt ein Gefühl innerer Zufriedenheit, großer Ruhe
+                  und tiefer Entspannung. Bei regelmäßiger Behandlung durchläuft
+                  der Patient einen Prozess emotionaler und physischer Reinigung
+                  und Klärung. Oftmals ist dieser Vorgang an einem intensiveren
+                  Stoffwechselgeschehen zu ersehen. Alle Körperflüssigkeiten
+                  riechen intensiver, und auch zurückgehaltene, unverarbeitete
+                  Emotionen können sich lösen. Dadurch besteht die Möglichkeit
+                  der Bearbeitung und Integration von inneren Konflikten.
+                </p>
+              </v-col>
+            </v-row>
+          </v-container>
         </v-expansion-panel-content>
       </v-expansion-panel>
       <v-expansion-panel>
@@ -379,7 +412,7 @@
             <v-icon color="#45184a">$expand</v-icon>
           </template>
         </v-expansion-panel-header>
-        <v-expansion-panel-content class="px-4">
+        <v-expansion-panel-content>
           <p>
             . . . sind Mineralsalze in homöopathisch niedrigen Potenzen, welche
             die Funktionsabläufe der Körperzellen wieder ins Gleichgewicht
@@ -421,5 +454,9 @@ export default {
   .accordion-header {
     color: $primary;
   }
+}
+
+.v-expansion-panel-content__wrap {
+  padding: 0 0 !important;
 }
 </style>

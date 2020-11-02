@@ -134,11 +134,11 @@
           </p>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="4" lg="4" xl="4">
-          <h3>Webdesign, technische Umsetzung und Fotos</h3>
+          <h3>Gestaltung und technische Umsetzung</h3>
         </v-col>
         <v-col cols="12" xs="12" sm="12" md="8" lg="8" xl="8" class="pt-0">
           <p>
-            Jo Schäfer | Digital Media Design
+            Robert und Jo Schäfer
             <br />
             <a href="https://joschaefer.com" target="_blank" rel="noopener"
               >joschaefer.com</a
