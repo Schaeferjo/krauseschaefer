@@ -3,8 +3,8 @@
     :src="imgUrl"
     :srcset="imgSourceSet"
     class="hero-section"
-    sizes="(min-width: 960px) 100vw, 100vw"
-    alt="Naturheilpraxis Krause-Schäfer Deesem (Heilpraktiker für Lohmar, Siegburg, Neunkirchen-Seelscheid)"
+    sizes="(min-width: 600px) 100vw, 100vw, 100vw"
+    alt="Naturheilpraxis Krause-Schäfer Deesem (Heilpraktikerin für Lohmar, Siegburg, Neunkirchen-Seelscheid)"
   ></v-img>
 </template>
 
@@ -12,10 +12,10 @@
 export default {
   computed: {
     imgUrl() {
-      return `/images/bg_large/${this.imgName}`
+      return `/images/bg_small/${this.imgName}`
     },
     imgSourceSet() {
-      return `/images/bg_large/${this.imgName} 1280w, /images/bg_medium/${this.imgName} 600w`
+      return `/images/bg_large/${this.imgName} 1280w, /images/bg_medium/${this.imgName} 960w, /images/bg_small/${this.imgName} 600w`
     },
     imgName() {
       const mapping = {

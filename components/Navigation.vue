@@ -77,6 +77,7 @@ export default {
   }
 }
 .main-nav {
+  padding-bottom: 3em;
   a.v-list-item {
     border-radius: 0;
     color: $primary;
