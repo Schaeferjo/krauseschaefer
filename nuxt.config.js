@@ -92,9 +92,11 @@ export default {
       fileName: 'icon.png',
     },
     meta: {
+      title: 'Naturheilpraxis Krause-Schäfer',
+      description:
+        'Die Naturheilpraxis Krause-Schäfer in Lohmar bietet viele alternativer Therapien an. Ein Schwerpunkt ist die individuelle Behandlung von Migräne.',
       theme_color: primary,
       lang: 'de',
-      description,
     },
   },
 
