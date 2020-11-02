@@ -15,7 +15,7 @@ export default {
   head: {
     titleTemplate:
       'Naturheilpraxis Krause-Schäfer | Heilpraktikerin aus Lohmar | %s',
-    title: '',
+    title: 'Naturheilpraxis Krause-Schäfer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
