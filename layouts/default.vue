@@ -5,10 +5,26 @@
     <v-main>
       <v-container class="content-wrap">
         <v-row>
-          <v-col cols="12" xs="12" sm="12" md="5" lg="4" xl="4" class="px-3">
+          <v-col
+            cols="12"
+            xs="12"
+            sm="12"
+            md="5"
+            lg="4"
+            xl="4"
+            class="px-3 py-0"
+          >
             <Navigation />
           </v-col>
-          <v-col cols="12" xs="12" sm="12" md="7" lg="8" xl="8" class="px-8">
+          <v-col
+            cols="12"
+            xs="12"
+            sm="12"
+            md="7"
+            lg="8"
+            xl="8"
+            class="px-8 py-0"
+          >
             <nuxt />
           </v-col>
         </v-row>
@@ -79,6 +95,15 @@ export default {
         transform: rotate(45deg);
       }
     }
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .content-wrap {
+    -moz-hyphens: auto !important;
+    -o-hyphens: auto !important;
+    -ms-hyphens: auto !important;
+    hyphens: auto !important;
   }
 }
 </style>

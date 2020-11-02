@@ -71,7 +71,7 @@ export default {
 #navigation-contact {
   p {
     span {
-      width: 70px;
+      width: 65px;
       display: inline-block;
     }
   }
@@ -130,6 +130,17 @@ export default {
     display: block;
     background-image: url('/images/hr_custom.svg');
     background-repeat: repeat-x;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  #navigation-contact {
+    p {
+      span {
+        width: 100%;
+        display: none;
+      }
+    }
   }
 }
 </style>

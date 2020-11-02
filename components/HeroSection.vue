@@ -137,13 +137,13 @@ export default {
 
 @media only screen and (max-width: 599px) {
   .hero-section {
-    height: 28vh !important;
+    height: 50vh !important;
   }
   #logo-wrap {
     padding: 0 1em;
     #logo {
+      width: 200px;
       height: 80px;
-      background-size: 70%;
     }
   }
 }
