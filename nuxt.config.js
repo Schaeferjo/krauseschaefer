@@ -91,6 +91,11 @@ export default {
     icon: {
       fileName: 'icon.png',
     },
+    manifest: {
+      name: 'Naturheilpraxis Krause-Schäfer',
+      short_name: 'Naturheilpraxis Krause-Schäfer',
+      lang: 'de',
+    },
     meta: {
       title: 'Naturheilpraxis Krause-Schäfer',
       description:
@@ -108,5 +113,4 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
-  transpile: ['mapbox-gl-controls/lib/styles'],
 }

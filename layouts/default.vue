@@ -59,7 +59,7 @@ export default {
 
 <style lang="scss">
 .content-wrap {
-  max-width: 1280px;
+  max-width: 1264px;
   padding-top: 0 !important;
   padding-bottom: 3em !important;
 }
