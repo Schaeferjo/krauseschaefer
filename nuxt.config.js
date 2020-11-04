@@ -30,10 +30,10 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    'fontsource-palanquin/400.css',
-    'fontsource-palanquin/700.css',
-    'fontsource-playfair-display/700.css',
-    'fontsource-playfair-display-sc/400.css',
+    'fontsource-palanquin/latin-400.css',
+    'fontsource-palanquin/latin-700.css',
+    'fontsource-playfair-display/latin-700.css',
+    'fontsource-playfair-display-sc/latin-400.css',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
