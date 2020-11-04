@@ -62,7 +62,7 @@
           filled
         ></v-textarea>
         <p>
-          <v-checkbox v-model="checkbox" :rules="agbRules" required>
+          <v-checkbox v-model="checkbox" :rules="datenschutzRules" required>
             <template v-slot:label>
               <span color="red">
                 Ich habe die&nbsp;
@@ -135,7 +135,7 @@ export default {
         /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s./0-9]*$/g.test(v) ||
         'muss gültig sein',
     ],
-    agbRules: [(v) => !!v || 'Sie müssen zustimmen um fortzufahren'],
+    datenschutzRules: [(v) => !!v || 'Sie müssen zustimmen um fortzufahren'],
   }),
 
   methods: {
