@@ -2,7 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 
 const primary = '#5e2368'
 const description =
-  'Die Naturheilpraxis Krause-Schäfer in Lohmar bietet viele alternativer Therapien an. Ein Schwerpunkt ist die individuelle Behandlung von Migräne.'
+  'Die Naturheilpraxis Krause-Schäfer in Lohmar bietet viele alternative Therapien an. Ein Schwerpunkt ist die individuelle Behandlung von Migräne.'
 const clientUrl = process.env.URL || 'http://localhost:3000'
 
 export default {
@@ -92,20 +92,15 @@ export default {
     icon: {
       fileName: 'icon.png',
     },
-
-    meta: {
+    manifest: {
+      short_name: 'Krause-Schäfer',
+      name: 'Naturheilpraxis Krause-Schäfer',
+      description:
+        'Die Naturheilpraxis Krause-Schäfer in Lohmar bietet viele alternative Therapien an. Ein Schwerpunkt ist die individuelle Behandlung von Migräne.',
       theme_color: primary,
-      lang: 'de',
+      lang: 'de-DE',
+      author: 'Robert und Jo Schäfer',
     },
-  },
-
-  manifest: {
-    name: 'Naturheilpraxis Krause-Schäfer',
-    short_name: 'Krause-Schäfer',
-    description:
-      'Die Naturheilpraxis Krause-Schäfer in Lohmar bietet viele alternativer Therapien an.',
-    lang: 'de',
-    author: 'Robert und Jo Schäfer',
   },
 
   /* sitemap */
