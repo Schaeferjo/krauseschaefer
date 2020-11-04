@@ -7,6 +7,7 @@ Bild mit 900px Breite 100vw"
   <v-img
     :src="imgUrl"
     :srcset="imgSourceSet"
+    cover
     class="hero-section"
     sizes="(min-width: 1264px) 1280px, 
             (min-width: 960px) 960px,
