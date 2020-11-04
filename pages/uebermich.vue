@@ -9,14 +9,14 @@
         <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="12">
           <v-img
             src="images/rose_krause_schaefer.jpg"
-            alt="Heilpraktikerin Rose Krause-Schäfer aus Lohmar - Deesem"
+            alt="Heilpraktikerin Rose Krause-Schäfer aus Lohmar- Deesem"
             class="py-12 mx-auto"
             max-width="600px"
           ></v-img>
         </v-col>
       </v-row>
       <v-row class="pt-8">
-        <v-col cols="12" xs="12" sm="6" md="6" lg="6" xl="6">
+        <v-col cols="12" xs="12" sm="12" md="12" lg="6" xl="6" class="pb-10">
           <h3 class="pb-3">Beruflicher Werdegang</h3>
           <ul>
             <li>Erzieherin</li>
@@ -35,7 +35,7 @@
             <li>Regelmäßige Fortbildungen und Schulungen</li>
           </ul>
         </v-col>
-        <v-col cols="12" xs="12" sm="6" md="6" lg="6" xl="6">
+        <v-col cols="12" xs="12" sm="12" md="12" lg="6" xl="6">
           <h3 class="pb-3">Lebensarbeitsschwerpunkte</h3>
           <ul>
             <li>Individuelle spirituelle Suche und Entfaltung</li>

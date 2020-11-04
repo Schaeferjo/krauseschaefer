@@ -28,7 +28,6 @@
               </v-col>
             </v-row>
           </v-container>
-
           <p>. . . ist die bekannteste und älteste Blütentherapie.</p>
           <p>
             Benannt ist sie nach ihrem Begründer, dem englischen Arzt Edward
