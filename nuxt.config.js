@@ -61,7 +61,7 @@ export default {
     // see: https://github.com/schlunsen/nuxt-leaflet
     'nuxt-leaflet',
     // see: https://github.com/pimlie/nuxt-matomo
-    ['nuxt-matomo', { matomoUrl: '//nuxt.krause-schaefer.de/', siteId: 1 }],
+    ['nuxt-matomo', { matomoUrl: '//piwik.krause-schaefer.de/', siteId: 2 }],
   ],
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
