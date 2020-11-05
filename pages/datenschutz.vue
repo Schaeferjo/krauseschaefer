@@ -224,6 +224,12 @@
       identifizieren und nicht mit personenbezogenen Daten über den Träger des
       Pseudonyms zusammengeführt.
     </p>
+    <p>
+      <iframe
+        style="border: 0; height: 300px; width: 100%"
+        src="https://piwik.krause-schaefer.de/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=ffffff&fontColor=333333&fontSize=17px&fontFamily=Palanquin"
+      ></iframe>
+    </p>
   </div>
 </template>
 
