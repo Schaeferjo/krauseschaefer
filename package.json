@@ -29,7 +29,7 @@
     "fontsource-palanquin": "^3.0.9",
     "fontsource-playfair-display": "^3.0.3",
     "fontsource-playfair-display-sc": "^3.0.9",
-    "nuxt": "^2.14.6",
+    "nuxt": "^2.15.0",
     "nuxt-leaflet": "^0.0.22",
     "nuxt-matomo": "^1.2.3"
   },
