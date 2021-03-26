@@ -4786,10 +4786,10 @@ follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
-fontsource-palanquin@^3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/fontsource-palanquin/-/fontsource-palanquin-3.0.9.tgz#fb0759763ddf453e2c29372368a775c1d2a972c6"
-  integrity sha512-MKVCUHII357jmUaWR9md4d3gv5U2WdMG6XAg628IN0x6v+wqimgUWLK3ulM97Q/vDzwXyApFPW/0DH8limhG5w==
+fontsource-palanquin@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fontsource-palanquin/-/fontsource-palanquin-4.0.0.tgz#0151aaec2f10980c96218321c434adac67618819"
+  integrity sha512-f4vgHelo6VnD0InB8NCB+weV0mPmOMp1qfrd+/dWGG7ecf+l4brnq+DWGrKXTO0+6gMegujvLBH8alamgiPGew==
 
 fontsource-playfair-display-sc@^3.0.9:
   version "3.0.9"
