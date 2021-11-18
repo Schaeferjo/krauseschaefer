@@ -30,7 +30,7 @@
     "fontsource-playfair-display": "^3.0.3",
     "fontsource-playfair-display-sc": "^3.0.9",
     "nuxt": "^2.15.3",
-    "nuxt-leaflet": "^0.0.22",
+    "nuxt-leaflet": "^0.0.27",
     "nuxt-matomo": "^1.2.3"
   },
   "devDependencies": {
