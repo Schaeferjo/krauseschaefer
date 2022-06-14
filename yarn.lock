@@ -3860,14 +3860,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.1:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
-  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
-  dependencies:
-    ms "2.1.2"
-
-debug@^4.3.2:
+debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.1, debug@^4.3.2:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -4966,10 +4959,10 @@ fontsource-palanquin@^4.0.0:
   resolved "https://registry.yarnpkg.com/fontsource-palanquin/-/fontsource-palanquin-4.0.0.tgz#0151aaec2f10980c96218321c434adac67618819"
   integrity sha512-f4vgHelo6VnD0InB8NCB+weV0mPmOMp1qfrd+/dWGG7ecf+l4brnq+DWGrKXTO0+6gMegujvLBH8alamgiPGew==
 
-fontsource-playfair-display-sc@^3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/fontsource-playfair-display-sc/-/fontsource-playfair-display-sc-3.0.9.tgz#42dfbde38efa7969ffa92c1d8b7a14e90268d378"
-  integrity sha512-MjK6XUN8DQHeIRtk0DnO3XJgzEyekzK2csrx9UZlY0cyEML/CD+iFjaBRQYcGw9Xd2tgNU91Br6VENtid1jVfA==
+fontsource-playfair-display-sc@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fontsource-playfair-display-sc/-/fontsource-playfair-display-sc-4.0.0.tgz#2407da294faec488530a3ff3f313c5f3ba0927fd"
+  integrity sha512-bjvXpyI0bBnE+v2+m/Eec+i3vFvFGj8XI0ezInC2U5/7J2W4drVgMQ9roqKkw7B/9Bo7UFr+cHy93i47690U2A==
 
 fontsource-playfair-display@^4.0.0:
   version "4.0.0"
@@ -8436,15 +8429,7 @@ postcss-selector-parser@^5.0.0-rc.3, postcss-selector-parser@^5.0.0-rc.4:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.5:
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz#79b61e2c0d1bfc2602d549e11d0876256f8df88d"
-  integrity sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==
-  dependencies:
-    cssesc "^3.0.0"
-    util-deprecate "^1.0.2"
-
-postcss-selector-parser@^6.0.9:
+postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.5, postcss-selector-parser@^6.0.9:
   version "6.0.10"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz#79b61e2c0d1bfc2602d549e11d0876256f8df88d"
   integrity sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==
