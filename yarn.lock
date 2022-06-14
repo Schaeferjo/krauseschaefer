@@ -4798,10 +4798,10 @@ fontsource-playfair-display-sc@^3.0.9:
   resolved "https://registry.yarnpkg.com/fontsource-playfair-display-sc/-/fontsource-playfair-display-sc-3.0.9.tgz#42dfbde38efa7969ffa92c1d8b7a14e90268d378"
   integrity sha512-MjK6XUN8DQHeIRtk0DnO3XJgzEyekzK2csrx9UZlY0cyEML/CD+iFjaBRQYcGw9Xd2tgNU91Br6VENtid1jVfA==
 
-fontsource-playfair-display@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/fontsource-playfair-display/-/fontsource-playfair-display-3.0.3.tgz#683406c97a53ad026f534cd11e4c62bf778a4e04"
-  integrity sha512-BmCNrcmTx9QIEES0ocJKV+7fjfFx/EsJ3o1O3jQoKP5tIkeWjq1fKyYysWWQfenqZh9/IZO99fDxAtn+quooOA==
+fontsource-playfair-display@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fontsource-playfair-display/-/fontsource-playfair-display-4.0.0.tgz#ae65207e42089385c2b8d378982f1e680ca4e3fd"
+  integrity sha512-n6Q7jEFuRSgRprdPsIOT622gDpEuUCV/y99RK/ZBAhPjCBhjpmuxJahX8Vx53GmSm3h7WaIVuE4vsgPLWShkqQ==
 
 for-in@^1.0.2:
   version "1.0.2"
