@@ -2,7 +2,7 @@
   <div>
     <h1>Über mich</h1>
     <h2 class="mb-6">Wissenswertes über meine Person</h2>
-    <p>geboren 1956, verheiratet, zwei Söhne.</p>
+    <p>geboren 1956, zwei Söhne.</p>
 
     <v-container>
       <v-row>
