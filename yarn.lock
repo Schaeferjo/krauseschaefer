@@ -7284,10 +7284,10 @@ nuxt-leaflet@^0.0.27:
     npm-publish-git-tag "^3.0.3"
     vue2-leaflet "^2.7.1"
 
-nuxt-matomo@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/nuxt-matomo/-/nuxt-matomo-1.2.3.tgz#9814b19b8898872d7d4535ac472097bf021e8edc"
-  integrity sha512-jaA8u5XjBi1KJ/MAymzMexNvJO6meoMLMRH4M7AsVpnw4F5Dm+ahsvp2xKaFqtcKtknVi6x/n2IBd8FqVWSXBw==
+nuxt-matomo@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/nuxt-matomo/-/nuxt-matomo-1.2.4.tgz#2cd3f212996e0c35ade08f23563987438608e469"
+  integrity sha512-09cIWnj6v58CMbEDS+mVTnJ97BaO/fJaQDPk31sa27jejcD80bIvNowkAJMj4OcVWMeeIVTljClMHE6249cFtw==
 
 nuxt@^2.15.3:
   version "2.15.3"
