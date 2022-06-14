@@ -27,7 +27,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.8.1",
     "fontsource-palanquin": "^4.0.0",
-    "fontsource-playfair-display": "^3.0.3",
+    "fontsource-playfair-display": "^4.0.0",
     "fontsource-playfair-display-sc": "^3.0.9",
     "nuxt": "^2.15.3",
     "nuxt-leaflet": "^0.0.22",
